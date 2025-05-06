@@ -11,7 +11,7 @@ public class Questao5 {
             if(this.idade >= 18){
                 return "Maior de idade";
             }else{
-                return "Maior de idade";
+                return "Menor de idade";
             }
         }
     }
