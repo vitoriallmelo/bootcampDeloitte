@@ -3,6 +3,7 @@ public class Questao5 {
     public class Pessoa{
         public String nome;
         public int idade;
+
         public Pessoa(String nome, int idade){
             this.nome = nome;
             this.idade = idade;
@@ -14,6 +15,7 @@ public class Questao5 {
                 return "Menor de idade";
             }
         }
+
     }
     public static void main(String[] args) {
         Questao5 questao5 = new Questao5();
